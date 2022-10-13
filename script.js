@@ -82,7 +82,7 @@
         if ($scope.splashIcon === 'spock') {
           $scope.spocked = true;
           _winner = _p2;
-          message = 'You\'ve been Spock\'d';
+          message = '¡Genial, ganaste! 💪';
         } else {
           if (hand === $scope.splashIcon) {
             _winner = 'tie';
